@@ -1,0 +1,40 @@
+{
+  "root" : {
+    "__class" : "RootNode",
+    "children" : [
+      {
+        "__class" : "PageNode",
+        "children" : [
+
+        ],
+        "duplicatedFrom" : null,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
+        "homeNodeId" : null,
+        "id" : "ZudGkobcc",
+        "name" : "Page 1",
+        "originalid" : null,
+        "parentid" : "J0kfRnds0",
+        "visible" : false
+      }
+    ],
+    "disableBackdropFilters" : true,
+    "duplicatedFrom" : null,
+    "id" : "J0kfRnds0",
+    "name" : null,
+    "originalid" : null,
+    "parentid" : null,
+    "tokens" : {
+
+    },
+    "tokensIndex" : [
+
+    ],
+    "visible" : false
+  },
+  "version" : 69
+}

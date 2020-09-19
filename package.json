@@ -1,0 +1,18 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "18887751-a198-471e-9388-7a55c5680226"
+	},
+	"author": "John Waidhofer",
+	"dependencies": {
+		"@framer/framer.default": "^1.76.0"
+	}
+}
