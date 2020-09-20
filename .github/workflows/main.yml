@@ -1,7 +1,7 @@
 ---
-on: 
+on:
   push:
-    branches: 
+    branches:
       - master
 name: Build and publish
 jobs:
@@ -13,11 +13,11 @@ jobs:
       - name: Build
         uses: framer/bridge@master
         with:
-          args: build <your-project-path.framerx>
+          args: build .
 
       - name: Publish
         uses: framer/bridge@master
         env:
           FRAMER_TOKEN: ${{ secrets.FRAMER_TOKEN }}
         with:
-          args: publish <your-project-path.framerfx> --yes
+          args: publish . --yes
